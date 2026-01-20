@@ -41,7 +41,12 @@ print("-------------------------------------------\n"
 # print(f"My favourite colour is {colour}")
 
 # Write your code below:
-
+Name = "Alice"
+print(f"My name is {Name}")
+age = "25"
+print(f"my age is {age}")
+food = "PIZZA"
+print(f"my favorite food is {food}")
 
 # -------------------------------------------
 # Task 2: Using Variables in Sentences
@@ -63,8 +68,11 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
+print("Alice is 25 years old.")
+age = 25
 
-
+print(f"In 2 years , Alice will be {age + 2}")
+print ("Alice really likes pizza.")
 # -------------------------------------------
 # Task 3: The Power of Refactoring
 # -------------------------------------------
@@ -79,7 +87,15 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
-
+Name ="Bob"
+food ="Pizza"
+age = 18
+age2 = 2
+total = age + age2
+print(f"my name is {Name}")
+print(f"my age is {age}")
+print(f"in 2 yeas, I will be {total}")
+print(f"Bob likes {food}")
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
 # -------------------------------------------
@@ -115,6 +131,8 @@ print("\n-------------------------------------------\n"
 # print(f"{city} sounds like a lovely place!")
 
 # Write your code below:
+Name = input("what's your name? ")
+print(f"{Name} It's really a nice name!")
 
 
 # Extension 2: Integer Conversion
@@ -128,6 +146,10 @@ print("\n-------------------------------------------\n"
 # Ask the user for their age and tell them how old they will be next year.
 
 # Write your code below:
+age = int(input("What's your age? "))
+age2 = 5
+total = age + age2
+print(f"you will be {total} years old in next 5 year.")
 
 
 # Extension 3: Case Formatting
